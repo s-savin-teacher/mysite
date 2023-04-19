@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Flat"
+   viewBox="0 0 212.56017 192.15132"
+   version="1.1"
+   sodipodi:docname="telegram-icon.svg"
+   width="212.56017"
+   height="192.15132"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1337" />
+  <sodipodi:namedview
+     id="namedview1335"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.0507812"
+     inkscape:cx="95.573333"
+     inkscape:cy="98.742857"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="501"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Flat" />
+  <path
+     d="M 207.69197,3.3964199 A 13.96536,13.96536 0 0 0 193.43807,0.97454991 L 8.8809427,73.47942 a 14.00006,14.00006 0 0 0 2.3735303,26.75879 l 48.48633,9.69676 v 60.19385 a 13.99436,13.99436 0 0 0 23.89941,9.89843 l 27.269587,-27.26928 40.7851,35.89135 a 13.88378,13.88378 0 0 0 9.20215,3.502 14.14473,14.14473 0 0 0 4.34277,-0.68848 13.88364,13.88364 0 0 0 9.34961,-10.19726 L 212.20271,17.13272 A 13.967,13.967 0 0 0 207.69197,3.3964199 Z M 12.007893,86.68642 a 1.85417,1.85417 0 0 1 1.26074,-2.03711 L 167.69637,23.98087 64.350183,98.61929 13.607503,88.47061 a 1.85412,1.85412 0 0 1 -1.59961,-1.78419 z m 63.147,84.85645 a 1.99983,1.99983 0 0 1 -3.41409,-1.41405 v -51.84009 l 30.142577,26.52588 z m 87.737797,7.042 a 2.00059,2.00059 0 0 1 -3.271,1.05567 L 75.348223,105.47916 200.33162,15.21378 Z"
+     id="path1332" />
+</svg>

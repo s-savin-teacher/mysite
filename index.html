@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@400;600;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ab00ff">
+    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="theme-color" content="#ede9e9">
+    <title>Serhii Savin</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Serhii Savin</div>
+        <nav id="nav" class="">
+            <ul>
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#portfolio">Портфоліо</a></li>
+                <li><a href="#experience">Досвід</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="nav-icon">
+            <a href="javascript:void(0);" class="icon" onclick="navopen()"><img src="img/icons/nav-icon.svg"
+                    alt="Open navigation" /></a>
+        </div>
+    </header>
+    <main>
+        <div class="about gray-bg" id="about">
+            <div class="align-center">
+                <img src="img/portrait.png" alt="portrait" class="portrait">
+                <div class="about-text">
+                    <h1>Графічний дизайнер, батикист</h1>
+                    <p>Виконую дизайн та макетування пакування, пліграфічної продукції, банерів для соціальних мереж та
+                        інтернет сайтів.</p>
+                    <a href="#portfolio">Портфоліо</a>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio" id="portfolio">
+            <h1>Портфоліо</h1>
+            <div class="container align-center">
+                <!-- Галерея -->
+                <a href="img/gallery/batik-daisies.JPG" target="_blank">
+                    <figure>
+                        <img src="img/gallery/batik-daisies.JPG" alt="Ромашки">
+                        <figcaption>
+                            <h2>"Ромашки"</h2>
+                            <div class="desc">(гарячий батик)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="img/gallery/batik-evening-flowers.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/batik-evening-flowers.jpg" alt="Вечірні квіти">
+                        <figcaption>
+                            <h2>"Вечірні квіти"</h2>
+                            <div class="desc">(гарячий батик)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="img/gallery/ps-portrait.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/ps-portrait.jpg" alt="Автопортрет">
+                        <figcaption>
+                            <h2>Автопортрет</h2>
+                            <div class="desc">(цифровий живопис)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="img/gallery/poster_musicians.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/poster_musicians.jpg" alt="Музиканти">
+                        <figcaption>
+                            <h2>Музиканти</h2>
+                            <div class="desc">(векторна графіка)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="img/gallery/poster-baptism.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/poster-baptism.jpg" alt="Водокрес">
+                        <figcaption>
+                            <h2>Водокрес</h2>
+                            <div class="desc">(векторна графіка)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a href="img/gallery/poster-spring.jpg" target="_blank">
+                    <figure>
+                        <img src="img/gallery/poster-spring.jpg" alt="День матері">
+                        <figcaption>
+                            <h2>День матері</h2>
+                            <div class="desc">(векторна графіка)</div>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+        <div class="experience gray-bg" id="experience">
+            <h1>Досвід</h1>
+            <div class="container align-center">
+                <div class="skill">
+                    <div class="icon-container"><img src="img/icons/inkscape-icon.svg" alt="skill icon"></div>
+                    <div class="skill-caption">
+                        <div class="skill-name">InkScape</div>
+                        <div class="skill-level">
+                            <div class="range" style="width:60%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-container"><img src="img/icons/pen-icon.svg" alt="skill icon"></div>
+
+                    <div class="skill-caption">
+                        <div class="skill-name">Adobe Illustrator</div>
+                        <div class="skill-level">
+                            <div class="range" style="width:80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-container"><img src="img/icons/brush-icon.svg" alt="skill icon"></div>
+                    <div class="skill-caption">
+                        <div class="skill-name">Батик</div>
+                        <div class="skill-level">
+                            <div class="range" style="width:80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts" id="contacts">
+            <!-- Контакти -->
+            <h1>Контакти</h1>
+            <div class="container align-center">
+                <div class="contact-icon">
+                    <div class="icon-container"><img src="img/icons/fb-icon.svg" alt="skill icon"></div>
+                </div>
+                <div class="contact-icon">
+                    <div class="icon-container"><img src="img/icons/instagram-icon.svg" alt="skill icon"></div>
+                </div>
+                <div class="contact-icon">
+                    <div class="icon-container"><img src="img/icons/viber-icon.svg" alt="skill icon"></div>
+                </div>
+                <div class="contact-icon">
+                    <div class="icon-container"><img src="img/icons/telegram-icon.svg" alt="skill icon"></div>
+                </div>
+                <div class="contact-icon">
+                    <div class="icon-container"><img src="img/icons/email-icon.svg" alt="skill icon"></div>
+                </div>
+                <div class="contact-icon">
+                    <div class="icon-container"><img src="img/icons/phone-icon.svg" alt="skill icon"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="gray-bg">
+        <!--підвал-->
+        <div class="align-center container">
+            <nav>
+                <ul>
+                    <li><a href="#about">Про мене</a></li>
+                    <li><a href="#portfolio">Портфоліо</a></li>
+                    <li><a href="#experience">Досвід</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="copyright">
+                © Serhii Savin, 2023
+            </div>
+        </div>
+    </footer>
+    <script>
+        function navopen() {
+            var x = document.getElementById("nav");
+            if (x.className === "") {
+                x.className += "show";
+            } else {
+                x.className = "";
+            }
+        }
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+</body>
+
+</html>
