@@ -311,6 +311,7 @@ footer .copyright {
         background-color: white;
         border-radius: 10px;
         transition: all 300ms ease;
+        z-index:1001;
     }
 
     #nav.show {
